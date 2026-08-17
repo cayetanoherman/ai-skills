@@ -60,6 +60,14 @@ Para obtener las últimas skills:
 git pull
 ```
 
+## Modificar y mejorar skills
+
+Si detectas que una skill no funciona correctamente, que sus instrucciones pueden mejorarse o que falta algún caso, siéntete libre de modificarla y proponer los cambios. Este es un repositorio compartido y las aportaciones de todos ayudan a mantener las skills útiles y actualizadas.
+
+Antes de modificar cualquier skill, ejecuta siempre un `git pull` para trabajar sobre la versión más reciente y reducir el riesgo de conflictos con otros compañeros.
+
+Antes de subir los cambios, prueba y valida debidamente la skill, incluyendo los casos relevantes para su funcionamiento. Solo deben subirse cambios que hayan sido comprobados y testeados correctamente.
+
 ## Añadir nuevas skills
 
 Añade cada nueva skill como una carpeta independiente directamente dentro de:
@@ -83,4 +91,3 @@ skills/
 ```
 
 Cada skill debe conservar todos los archivos que necesite, incluidos `SKILL.md`, scripts, referencias, ejemplos y cualquier otro recurso requerido.
-
