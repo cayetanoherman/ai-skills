@@ -8,6 +8,12 @@ No está vinculado exclusivamente a Codex. Las skills pueden ser utilizadas por 
 
 El catálogo contiene las skills y la documentación necesaria para que cada agente pueda incorporarlas usando su propio mecanismo de instalación o configuración.
 
+## Advertencia importante
+
+NO LANZAR A LO LOCO LAS SKILLS EN CUALQUIER REPO SIN CONOCIMIENTO DE LA MISMA.
+
+Antes de instalar o ejecutar cualquier skill, debes leer su `README` o `SKILL.md` y entender qué hace, qué archivos incluye y si es compatible con tu agente o proyecto. Si hay dudas, pregunta antes de aplicarla.
+
 ## Cómo utilizarlo
 
 Clona el repositorio:
