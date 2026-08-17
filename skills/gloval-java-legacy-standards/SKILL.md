@@ -1,9 +1,9 @@
 ---
-name: gloval-java-standards
+name: gloval-java-legacy-standards
 description: Estándares de codificación Java en Gloval (literales, nomenclatura, try-with-resources, indentación, encapsulación, inmutabilidad, Lombok, logging MessageFormat, paquetes, XSD interno, anti-verbosidad, comentarios, BBDD Postgres), manejo de archivos legacy en ISO-8859-1/Windows-1252 y entorno SDKMAN Java 8. Invocar al editar/crear cualquier archivo `.java`, al revisar código Java de Gloval, al diseñar tablas Postgres del proyecto, o al hablar de "estándares Java Gloval", "encoding legacy", "Java 8 Gloval", "sdk use java".
 ---
 
-# gloval-java-standards
+# gloval-java-legacy-standards
 
 Aplica a todo código Java en proyectos Gloval. Cumplir SIEMPRE salvo justificación explícita.
 

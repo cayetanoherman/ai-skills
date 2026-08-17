@@ -37,7 +37,7 @@ Por ejemplo:
 ```text
 Instala para el agente que estoy utilizando actualmente la siguiente skill:
 
-/ruta/al/repositorio/ai-skills/skills/refactor-unificar-paqueteria-proyectos-java
+/ruta/al/repositorio/ai-skills/skills/gloval-refactor-unificar-paqueteria-proyectos-java
 
 Analiza su contenido y utiliza el mecanismo oficial de instalación/configuración de skills de este agente.
 ```

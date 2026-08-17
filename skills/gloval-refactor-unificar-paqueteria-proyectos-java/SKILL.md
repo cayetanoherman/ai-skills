@@ -1,5 +1,5 @@
 ---
-name: refactor-unificar-paqueteria-proyectos-java
+name: gloval-refactor-unificar-paqueteria-proyectos-java
 description: Revisa repositorios Java en src/main y src/test para detectar, traducir y unificar paquetes arquitectónicos al inglés mediante nombres canónicos fijos, con configuration y xml siempre singulares y las demás responsabilidades arquitectónicas siempre plurales, sin decidir por el número de clases y sin alterar nombres de dominio o contexto; exige una branch limpia antes de cualquier análisis o refactor.
 ---
 
@@ -119,7 +119,7 @@ Usar una pregunta de decisión como: `Tengo dudas con esta paquetería, ¿cómo 
 4. En las tres primeras secciones, cambiar únicamente el segmento final detectado: español → inglés, singular → plural canónico o alias fijo → nombre fijo. No modificar nombres protegidos de dominio/contexto ni palabras ambiguas. Si hay conflictos, terminar con una única línea de pregunta usando el formato `Tengo dudas con esta paquetería, ¿cómo procedemos? Indica para cada conflicto si se mantiene o qué nombre debe tener.` Si no hay conflictos, terminar con `¿Confirmas este inventario para aplicar el refactor?`.
 5. Si el usuario corrige, elimina o resuelve entradas, volver a emitir las cinco secciones completas ya modificadas antes de solicitar confirmación de nuevo. No aplicar ningún conflicto hasta que el usuario haya indicado explícitamente su decisión y haya confirmado el inventario.
 6. No mover ni editar archivos durante el inventario. Solo tras la autorización explícita del usuario y una nueva comprobación limpia de `git status --porcelain=v1`, aplicar el refactor en `main` y `test`: mover directorios, actualizar declaraciones `package`, imports, referencias totalmente cualificadas y cualquier configuración Java que apunte a esos paquetes.
-7. Verificar después únicamente con búsquedas de los nombres antiguos y otras comprobaciones estáticas que no requieran compilación. No ejecutar el build ni los tests para ahorrar tokens. Al terminar el refactor, avisar al usuario de que debe ejecutar el build del proyecto, por ejemplo `./gradlew build`, y pedirle que comunique cualquier fallo para analizarlo y corregirlo. Recomendar que, al realizar el commit, utilice exactamente este título: «Refactor de paquetería con el uso de la skill /refactor-unificar-paqueteria-proyectos-java».
+7. Verificar después únicamente con búsquedas de los nombres antiguos y otras comprobaciones estáticas que no requieran compilación. No ejecutar el build ni los tests para ahorrar tokens. Al terminar el refactor, avisar al usuario de que debe ejecutar el build del proyecto, por ejemplo `./gradlew build`, y pedirle que comunique cualquier fallo para analizarlo y corregirlo. Recomendar que, al realizar el commit, utilice exactamente este título: «Refactor de paquetería con el uso de la skill /gloval-refactor-unificar-paqueteria-proyectos-java».
 
 ## Reglas para el refactor autorizado
 

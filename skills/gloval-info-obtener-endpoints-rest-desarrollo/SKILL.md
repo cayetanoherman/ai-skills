@@ -1,5 +1,5 @@
 ---
-name: info-obtener-endpoints-rest-desarrollo
+name: gloval-info-obtener-endpoints-rest-desarrollo
 description: Resuelve automáticamente el puerto del entorno de desarrollo desde Gloval_Cloud.json y lista, a partir del repositorio Java actual, todos los endpoints REST expuestos por controllers o rutas REST, construyendo cada URL con http://devnext.gloval.internal:{puerto}. Si el proyecto no aparece en la configuración, solicita el puerto manualmente. Usar cuando se necesite un inventario de endpoints para realizar pruebas contra desarrollo.
 ---
 
@@ -9,7 +9,7 @@ description: Resuelve automáticamente el puerto del entorno de desarrollo desde
 
 1. No solicitar el puerto en la primera respuesta. Resolverlo automáticamente antes de inspeccionar los endpoints.
 2. Obtener el nombre del proyecto a partir del nombre del directorio raíz del repositorio actual. Normalizarlo para la comparación convirtiéndolo a minúsculas y eliminando todos los caracteres que no sean letras ASCII o números. Por ejemplo, `api-documentacion-caixabank` se compara como `apidocumentacioncaixabank`.
-3. Leer `/home/cherman-businessgo-org/.codex/skills/info-obtener-endpoints-rest-desarrollo/json/Gloval_Cloud.json` y buscar una coincidencia exacta, una vez normalizada, en `variables[].name`. No usar coincidencias parciales.
+3. Leer `/home/cherman-businessgo-org/.codex/skills/gloval-info-obtener-endpoints-rest-desarrollo/json/Gloval_Cloud.json` y buscar una coincidencia exacta, una vez normalizada, en `variables[].name`. No usar coincidencias parciales.
 4. Para la variable coincidente, extraer el puerto numérico de `variables[].value` y aceptar únicamente valores entre `1` y `65535`. Usar ese puerto para construir las URLs.
 5. Si no existe una coincidencia exacta o la variable no contiene un puerto válido, detener el proceso y responder: `No encuentro el nombre del proyecto en el archivo de configuración Gloval_Cloud.json. Por favor, adjúntame el puerto del entorno de desarrollo.` En una respuesta posterior, aceptar únicamente un puerto numérico válido entre `1` y `65535`; si no es válido, repetir esa solicitud sin inspeccionar el repositorio.
 6. Tras resolver o recibir el puerto, inspeccionar estáticamente el repositorio actual y únicamente sus fuentes de producción. No hacer peticiones HTTP al entorno: el puerto solo se utiliza para construir las URLs del inventario.
@@ -33,7 +33,7 @@ Combinar siempre el prefijo de clase con cada ruta de método. Expandir arrays d
 Usar `scripts/list_rest_endpoints.py` como primera ayuda cuando sea aplicable:
 
 ```bash
-python3 /home/cherman-businessgo-org/.codex/skills/info-obtener-endpoints-rest-desarrollo/scripts/list_rest_endpoints.py --root . --port <puerto-resuelto>
+python3 /home/cherman-businessgo-org/.codex/skills/gloval-info-obtener-endpoints-rest-desarrollo/scripts/list_rest_endpoints.py --root . --port <puerto-resuelto>
 ```
 
 Complementar su resultado con búsquedas estáticas (`rg`) si hay anotaciones, herencia o routers que el script no pueda resolver. No ejecutar compilación ni tests.
