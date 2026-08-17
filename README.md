@@ -10,7 +10,7 @@ El catálogo contiene las skills y la documentación necesaria para que cada age
 
 ## Advertencia importante
 
-NO LANZAR A LO LOCO LAS SKILLS EN CUALQUIER REPO SIN CONOCIMIENTO DE LA MISMA.
+No ejecutar ni aplicar las skills de forma indiscriminada en ningún repositorio sin haber analizado previamente su contexto, estructura y necesidades.
 
 Antes de instalar o ejecutar cualquier skill, debes leer su `README` o `SKILL.md` y entender qué hace, qué archivos incluye y si es compatible con tu agente o proyecto. Si hay dudas, pregunta antes de aplicarla.
 
