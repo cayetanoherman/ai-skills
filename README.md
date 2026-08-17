@@ -13,7 +13,7 @@ El catálogo contiene las skills y la documentación necesaria para que cada age
 Clona el repositorio:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/cayetanoherman/ai-skills.git
 ```
 
 Después tendrás todas las skills disponibles dentro de:
@@ -32,16 +32,6 @@ Por ejemplo:
 Instala para el agente que estoy utilizando actualmente la siguiente skill:
 
 /ruta/al/repositorio/ai-skills/skills/refactor-unificar-paqueteria-proyectos-java
-
-Analiza su contenido y utiliza el mecanismo oficial de instalación/configuración de skills de este agente.
-```
-
-Otro ejemplo:
-
-```text
-Instala para el agente que estoy utilizando actualmente la siguiente skill:
-
-/ruta/al/repositorio/ai-skills/skills/info-obtener-endpoints-rest-desarrollo
 
 Analiza su contenido y utiliza el mecanismo oficial de instalación/configuración de skills de este agente.
 ```
