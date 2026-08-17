@@ -1,0 +1,4 @@
+interface:
+  display_name: "refactor-unificar-paqueteria-proyectos-java"
+  short_description: "Fija nombres canónicos para paquetes Java"
+  default_prompt: "Usa $refactor-unificar-paqueteria-proyectos-java con una branch limpia; normaliza configuration y xml en singular y el resto de arquitectura en plural tras mi permiso."

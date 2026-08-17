@@ -1,0 +1,4 @@
+interface:
+  display_name: "info-obtener-endpoints-rest-desarrollo"
+  short_description: "Lista endpoints REST para pruebas de desarrollo"
+  default_prompt: "Usa $info-obtener-endpoints-rest-desarrollo para resolver el puerto desde Gloval_Cloud.json y listar los endpoints REST del repositorio actual."

@@ -1,0 +1,136 @@
+{
+  "name": "Gloval Cloud",
+  "variables": [
+    {
+      "name": "rsi",
+      "value": "devnext.gloval.internal:18030",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "quatax",
+      "value": "devnext.gloval.internal:18029",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "sgr",
+      "value": "devnext.gloval.internal:18028",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "unicaja",
+      "value": "devnext.gloval.internal:18024",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "hubclientes",
+      "value": "devnext.gloval.internal:18025",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "cajamar",
+      "value": "devnext.gloval.internal:18084",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "bancamarch",
+      "value": "devnext.gloval.internal:18026",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "evobanco",
+      "value": "devnext.gloval.internal:18045",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "bbva",
+      "value": "devnext.gloval.internal:17000",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "docgrafica",
+      "value": "devnext.gloval.internal:19080",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "aimodelmediator",
+      "value": "devnext.gloval.internal:18031",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "sivasa",
+      "value": "devnext.gloval.internal:18033",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "sivasaexterno",
+      "value": "sivasa.glovalvaluation.com",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "bbvacee",
+      "value": "devnext.gloval.internal:9080",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "eurocaja",
+      "value": "devnext.gloval.internal:18034",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "apidocumentacioncaixabank",
+      "value": "devnext.gloval.internal:17000",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "caixabank",
+      "value": "devnext.gloval.internal:18036",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    },
+    {
+      "name": "caixabankfront",
+      "value": "devnext.gloval.internal:18037",
+      "type": "text",
+      "enabled": true,
+      "secret": false
+    }
+  ],
+  "info": {
+    "type": "bruno-environment",
+    "exportedAt": "2026-08-12T12:47:02.171Z",
+    "exportedUsing": "Bruno/v4.0.0"
+  }
+}
