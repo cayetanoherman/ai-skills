@@ -59,7 +59,7 @@
     },
     {
       "name": "bbva",
-      "value": "devnext.gloval.internal:17000",
+      "value": "devnext.gloval.internal:18027",
       "type": "text",
       "enabled": true,
       "secret": false
